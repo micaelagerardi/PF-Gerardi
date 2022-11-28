@@ -62,7 +62,6 @@ main {
 
 .container {
   padding: 20px;
-
   flex-direction: column;
   max-width: 1400px;
   margin: auto;
@@ -224,6 +223,10 @@ iframe {
   margin-bottom: 20px;
   text-align: center;
   line-height: 2rem;
+}
+
+._textoenvios {
+  color: black;
 }
 
 /* MAIN CONTACTO */
