@@ -240,6 +240,7 @@ iframe {
 
 footer {
   background-color: #cf0e9b;
+  max-width: 1400px;
 }
 
 .container_footer {
@@ -269,5 +270,10 @@ footer {
 
   .header_barranavegacion {
     padding-right: 20px;
+  }
+
+  .main_productos {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
