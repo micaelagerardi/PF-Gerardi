@@ -114,11 +114,6 @@ main {
   grid-template-columns: (2, 1fr);
 }
 
-.main_productos {
-  display: grid;
-  grid-template-columns: (2, 1fr);
-}
-
 article {
   display: flex;
   flex: 0 1 100px;
@@ -238,6 +233,13 @@ iframe {
   display: flex;
 }
 
+.foto_contacto {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  display: none;
+}
+
 .__cuadrocontacto {
   border: 1px solid salmon;
   text-align: center;
@@ -246,7 +248,7 @@ iframe {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 20px;
-  margin-left: 30px;
+  margin-left: 80px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -292,6 +294,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     grid-template-columns: (4, 1fr);
+  }
+
+  .foto_contacto {
+    display: block;
   }
 
   /* CUADROS INDEX */
