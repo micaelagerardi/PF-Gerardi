@@ -184,6 +184,10 @@ article button {
   justify-content: center;
 }
 
+.__textocomocomprar {
+  color: black;
+}
+
 .__titulocomocomprar {
   font-family: "Amatic SC", cursive;
   color: #cf0e9b;
