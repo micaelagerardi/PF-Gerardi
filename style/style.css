@@ -258,11 +258,6 @@ footer {
 /* VISTA DESKTOP */
 
 @media (min-width: 720px) {
-  header {
-    position: fixed;
-    width: 100%;
-  }
-
   .container_header {
     flex-direction: row;
     justify-content: space-between;
