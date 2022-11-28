@@ -62,10 +62,13 @@ main {
 
 .container {
   padding: 20px;
-  display: block;
+
   flex-direction: column;
   max-width: 1400px;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* MAIN INICIO */
