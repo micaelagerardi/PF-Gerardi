@@ -15,6 +15,40 @@
   flex-direction: column;
 }
 
+h1 {
+  letter-spacing: 20px;
+  animation: iluminar 2.4s infinite;
+}
+
+@keyframes iluminar {
+  0% {
+    color: #fff900;
+  }
+  20% {
+    color: #1b7fdb;
+    text-shadow: none;
+  }
+
+  40% {
+    color: #261784;
+    text-shadow: none;
+  }
+  60% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  80% {
+    color: #540df3;
+    text-shadow: none;
+  }
+
+  100% {
+    color: #841ADEs;
+    text-shadow: 10% 0 0 7px #fff900, 0 0 50px #ff6c00;
+  }
+}
+
 .header_barranavegacion {
   justify-content: center;
   text-align: center;
