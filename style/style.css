@@ -254,6 +254,11 @@ iframe {
   display: flex;
 }
 
+.col-auto {
+  color: #cf0e9b;
+  border-radius: 5px;
+}
+
 /*  FOOTER  */
 
 footer {
