@@ -236,6 +236,7 @@ iframe {
   margin-bottom: 40px;
   margin-left: 100px;
   display: none;
+  width: 20%;
 }
 
 .__cuadrocontacto {
@@ -301,6 +302,23 @@ footer {
 
   .foto_contacto {
     display: block;
+    width: 20%;
+  }
+
+  .__comocomprar {
+    line-height: 2rem;
+    height: 25rem;
+    width: 40rem;
+    margin-bottom: 2rem;
+    margin-left: 22rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .__cuadrocomomcomprar {
+    margin-top: 5rem;
+    height: 35rem;
   }
 
   /* CUADROS INDEX */
