@@ -46,8 +46,6 @@ nav a:hover {
 
 .titulo {
   color: #85f1f1;
-  align-items: flex-start;
-  font-size: x-large;
   text-align: center;
 }
 
@@ -344,5 +342,14 @@ footer {
     width: 300px;
     padding: 60px;
     justify-content: center;
+  }
+
+  /* ENVIOS */
+
+  iframe {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: inline;
   }
 }
