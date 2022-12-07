@@ -310,6 +310,14 @@ footer {
   margin: auto;
 }
 
+.texto_footer {
+  margin: 10px;
+}
+
+.instagram_footer {
+  margin: 10px;
+}
+
 /*  MEDIA QUERIES  */
 
 /* VISTA DESKTOP */
