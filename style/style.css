@@ -44,7 +44,7 @@ h1 {
   }
 
   100% {
-    color: #841ADEs;
+    color: #841ade;
     text-shadow: 10% 0 0 7px #fff900, 0 0 50px #ff6c00;
   }
 }
@@ -161,6 +161,7 @@ article {
   margin: 10px 20px 10px 20px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 article img {
