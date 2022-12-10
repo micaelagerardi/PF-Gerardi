@@ -1,0 +1,78 @@
+/* HEADER */
+
+.container_header {
+  background-color: $colorprincipal;
+  font-family: "Amatic SC", cursive;
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+  flex-direction: column;
+}
+
+h1 {
+  letter-spacing: 20px;
+  animation: iluminar 2.4s infinite;
+}
+
+@keyframes iluminar {
+  0% {
+    color: #fff900;
+  }
+  20% {
+    color: #1b7fdb;
+    text-shadow: none;
+  }
+
+  40% {
+    color: #261784;
+    text-shadow: none;
+  }
+  60% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  80% {
+    color: #540df3;
+    text-shadow: none;
+  }
+
+  100% {
+    color: #841ade;
+    text-shadow: 10% 0 0 7px #fff900, 0 0 50px #ff6c00;
+  }
+}
+
+.header_barranavegacion {
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1px;
+  font-size: medium;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #bd0bf8;
+}
+
+#imagen_logo {
+  display: inline-block;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #f7fdfd;
+}
+
+.titulo {
+  color: #85f1f1;
+  text-align: center;
+}

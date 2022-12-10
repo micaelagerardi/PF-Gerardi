@@ -1,0 +1,56 @@
+/* MAIN PRODUCTOS */
+
+.main_productos {
+  display: grid;
+  grid-template-columns: (2, 1fr);
+}
+
+article {
+  display: flex;
+  flex: 0 1 100px;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  background-color: white;
+  font-family: "Amatic SC", cursive;
+  align-items: center;
+  line-height: 1.5rem;
+  margin: 10px 20px 10px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+article img {
+  order: -1;
+  align-self: center;
+  border-radius: 1rem;
+}
+
+article button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.5rem;
+}
+
+.btn:hover {
+  color: $colorprincipal;
+  background-color: white;
+  border: 2px solid $colorprincipal;
+}
+
+.btn {
+  border: 1px solid black;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  align-items: center;
+}
