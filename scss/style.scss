@@ -3,10 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* VARIABLES */
+
+$colorprincipal: #cf0e9b;
+
 /* HEADER */
 
 .container_header {
-  background-color: #cf0e9b;
+  background-color: $colorprincipal;
   font-family: "Amatic SC", cursive;
   display: flex;
   max-width: 1400px;
@@ -177,9 +182,9 @@ article button {
 }
 
 .btn:hover {
-  color: #cf0e9b;
+  color: $colorprincipal;
   background-color: white;
-  border: 2px solid #cf0e9b;
+  border: 2px solid $colorprincipal;
 }
 
 .btn {
@@ -202,8 +207,8 @@ article button {
   line-height: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-  border: 1px solid #cf0e9b;
-  box-shadow: 3px 4px 15px #cf0e9b;
+  border: 1px solid $colorprincipal;
+  box-shadow: 3px 4px 15px $colorprincipal;
   margin: 50px;
   align-items: center;
   justify-content: center;
@@ -215,7 +220,7 @@ article button {
 
 .__titulocomocompra {
   font-family: "Amatic SC", cursive;
-  color: #cf0e9b;
+  color: $colorprincipal;
 }
 
 /* MAIN ENVIOS */
@@ -241,12 +246,12 @@ iframe {
 ._titulometodoenvio {
   font-family: "Amatic SC", cursive;
   margin-bottom: 1rem;
-  color: #cf0e9b;
+  color: $colorprincipal;
   margin-top: 0.5rem;
 }
 
 .cuadro_envios {
-  border: 2px solid #cf0e9b;
+  border: 2px solid $colorprincipal;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -289,14 +294,14 @@ iframe {
 }
 
 .col-auto {
-  color: #cf0e9b;
+  color: $colorprincipal;
   border-radius: 5px;
 }
 
 /*  FOOTER  */
 
 footer {
-  background-color: #cf0e9b;
+  background-color: $colorprincipal;
   max-width: 1400px;
 }
 
