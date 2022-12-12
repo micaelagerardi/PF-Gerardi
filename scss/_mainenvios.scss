@@ -1,0 +1,39 @@
+/* MAIN ENVIOS */
+
+.main_envios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  iframe {
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.cuadro_envios {
+  border: 2px solid $colorprincipal;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 2rem;
+
+  ._titulometodoenvio {
+    font-family: "Amatic SC", cursive;
+    margin-bottom: 1rem;
+    color: $colorprincipal;
+    margin-top: 0.5rem;
+  }
+
+  ._textoenvios {
+    color: black;
+  }
+}

@@ -4,6 +4,24 @@
   align-items: center;
   justify-content: center;
   display: flex;
+
+  .__cuadrocontacto {
+    border: 1px solid salmon;
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .col-auto {
+    color: $colorprincipal;
+    border-radius: 5px;
+  }
 }
 
 .foto_contacto {
@@ -12,23 +30,4 @@
   margin-left: 100px;
   display: none;
   width: 20%;
-}
-
-.__cuadrocontacto {
-  border: 1px solid salmon;
-  text-align: center;
-  line-height: 2.5rem;
-  padding: 1rem;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 20px;
-  margin-left: 80px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-.col-auto {
-  color: $colorprincipal;
-  border-radius: 5px;
 }

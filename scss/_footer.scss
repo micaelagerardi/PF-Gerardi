@@ -3,23 +3,23 @@
 footer {
   background-color: $colorprincipal;
   max-width: 1400px;
-}
 
-.container_footer {
-  align-items: center;
-  justify-content: center;
-  display: block;
-  display: flex;
-  font-family: "Caveat", cursive;
-  padding: 10px;
-  max-width: 1400px;
-  margin: auto;
-}
+  .container_footer {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    display: flex;
+    font-family: "Caveat", cursive;
+    padding: 10px;
+    max-width: 1400px;
+    margin: auto;
+  }
 
-.texto_footer {
-  margin: 10px;
-}
+  .texto_footer {
+    margin: 10px;
+  }
 
-.instagram_footer {
-  margin: 10px;
+  .instagram_footer {
+    margin: 10px;
+  }
 }

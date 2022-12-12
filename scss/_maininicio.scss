@@ -1,5 +1,22 @@
 /* MAIN INICIO */
 
+main {
+  background-color: #85f1f1;
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+
+  .container {
+    padding: 20px;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .__indexcuadros1 {
   border: 1px solid #f84c09;
   font-family: "Amatic SC", cursive;
