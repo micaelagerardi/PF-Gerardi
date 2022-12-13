@@ -17,38 +17,30 @@ main {
   }
 }
 
-.__indexcuadros1 {
-  border: 1px solid #f84c09;
+@mixin cuadrosindex {
   font-family: "Amatic SC", cursive;
   letter-spacing: 2px;
   border-radius: 15px;
   box-shadow: 2px 4px 15px;
   line-height: 1.5rem;
-  color: #f84c09;
   text-align: center;
   margin: 10px 20px 10px 20px;
+}
+
+.__indexcuadros1 {
+  border: 1px solid #f84c09;
+  color: #f84c09;
+  @include cuadrosindex;
 }
 
 .__indexcuadros2 {
   border: 1px solid #0f1ff9;
-  font-family: "Amatic SC", cursive;
-  letter-spacing: 2px;
-  border-radius: 15px;
-  box-shadow: 2px 4px 15px;
-  line-height: 1.5rem;
   color: #0f1ff9;
-  text-align: center;
-  margin: 10px 20px 10px 20px;
+  @include cuadrosindex;
 }
 
 .__indexcuadros3 {
   border: 1px solid #fc0b33;
-  font-family: "Amatic SC", cursive;
-  letter-spacing: 2px;
-  border-radius: 15px;
-  box-shadow: 2px 4px 15px;
-  line-height: 1.5rem;
   color: #fc0b33;
-  text-align: center;
-  margin: 10px 20px 10px 20px;
+  @include cuadrosindex;
 }
