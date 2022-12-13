@@ -2,11 +2,19 @@
 
 .main_productos {
   display: grid;
-  grid-template-columns: (2, 1fr);
+  grid-template-columns: (3, 1fr);
+  grid-template-areas:
+    "chipa sandwich tortafrita"
+    "naranja limon banana"
+    "medialunas pastelitoddl alfajor"
+    "conitos cookiechips cookiechocolate"
+    " pepas trufas frolamembrillo"
+    "frolabatata brownie churros"
+    "churrosddl berlinesddl berlinespastelera";
+  grid-template-rows: 50px 1fr 30px;
 
   article {
     display: flex;
-    flex: 0 1 100px;
     flex-direction: column;
     border: 1px solid black;
     border-radius: 2rem;
@@ -19,6 +27,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 405px;
 
     article img {
       order: -1;
