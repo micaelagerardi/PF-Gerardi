@@ -238,7 +238,6 @@ iframe {
   height: 150px;
   width: 250px;
   margin-top: 20px;
-  margin-left: 50px;
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;
@@ -309,7 +308,6 @@ footer {
 
 .s {
   border: 1px solid #cf0e9b;
-  width: 50%;
   height: 2px;
   margin-right: auto;
   margin-left: auto;
