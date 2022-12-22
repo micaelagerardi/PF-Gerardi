@@ -7,7 +7,7 @@
 /* HEADER */
 
 .container_header {
-  background-color: #cf0e9b;
+  background-color: #d691f9;
   font-family: "Amatic SC", cursive;
   display: flex;
   max-width: 1400px;
@@ -16,8 +16,9 @@
 }
 
 h1 {
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   animation: iluminar 2.4s infinite;
+  margin-bottom: 10px;
 }
 
 @keyframes iluminar {
@@ -75,7 +76,7 @@ li {
 }
 
 nav a:hover {
-  color: #f7fdfd;
+  color: #f4f712;
 }
 
 .titulo {
@@ -83,10 +84,15 @@ nav a:hover {
   text-align: center;
 }
 
+.h {
+  background: linear;
+  border: 1px solid #cf0e9b;
+}
+
 /* MAIN  */
 
 main {
-  background-color: #85f1f1;
+  background-color: #f0e3b7;
   display: flex;
   max-width: 1400px;
   margin: auto;
@@ -297,8 +303,16 @@ iframe {
 /*  FOOTER  */
 
 footer {
-  background-color: #cf0e9b;
+  background-color: #f0e3b7;
   max-width: 1400px;
+}
+
+.s {
+  border: 1px solid #cf0e9b;
+  width: 50%;
+  height: 2px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container_footer {
