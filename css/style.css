@@ -108,6 +108,10 @@ body {
   }
 }
 /* MAIN COMO COMPRAR */
+.main {
+  background-color: #f0e3b7;
+}
+
 .__comocomprar {
   line-height: 2rem;
   margin-bottom: 2rem;
@@ -127,6 +131,10 @@ body {
 }
 
 /* MAIN CONTACTO */
+.main {
+  background-color: #f0e3b7;
+}
+
 .row {
   align-items: center;
   justify-content: center;
@@ -159,6 +167,10 @@ body {
 }
 
 /* MAIN ENVIOS */
+main {
+  background-color: #f0e3b7;
+}
+
 .main_envios {
   display: flex;
   flex-direction: column;
@@ -196,7 +208,7 @@ body {
 
 /* MAIN INICIO */
 main {
-  background-color: #85f1f1;
+  background-color: #f0e3b7;
   display: flex;
   max-width: 1400px;
   margin: auto;
@@ -248,6 +260,10 @@ main .container {
 }
 
 /* MAIN PRODUCTOS */
+main {
+  background-color: #f0e3b7;
+}
+
 .main_productos {
   display: grid;
   grid-template-columns: 1fr;

@@ -1,5 +1,9 @@
 /* MAIN PRODUCTOS */
 
+main {
+  background-color: $colorprincipal;
+}
+
 .main_productos {
   display: grid;
   grid-template-columns: 1fr;
