@@ -1,7 +1,7 @@
 /* HEADER */
 
 .container_header {
-  background-color: $colorprincipal;
+  background-color: #d691f9;
   font-family: "Amatic SC", cursive;
   display: flex;
   max-width: 1400px;
@@ -9,8 +9,9 @@
   flex-direction: column;
 
   .h1 {
-    letter-spacing: 12px;
+    letter-spacing: 10px;
     animation: iluminar 2.4s infinite;
+    margin-bottom: 10px;
   }
 
   .h {
@@ -44,7 +45,7 @@
   }
 
   nav a:hover {
-    color: #f7fdfd;
+    color: #f4f712;
   }
 
   .titulo {
