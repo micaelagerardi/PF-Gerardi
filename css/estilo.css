@@ -16,10 +16,10 @@ footer .container_footer {
 footer .texto_footer {
   margin: 10px;
 }
-footer .s {
+footer hr .s {
   border: 1px solid #cf0e9b;
   height: 2px;
-  margin-right: auto;
+  margin: auto;
   margin-left: auto;
 }
 footer .instagram_footer {
@@ -114,7 +114,7 @@ body {
 }
 
 .__comocomprar {
-  line-height: 2rem;
+  line-height: 3rem;
   margin-bottom: 2rem;
   text-align: center;
   border: 1px solid #cf0e9b;
@@ -125,6 +125,7 @@ body {
 }
 .__comocomprar ._licomo {
   color: black;
+  list-style-type: none;
 }
 .__comocomprar .__titulocomocompra {
   font-family: "Amatic SC", cursive;
@@ -182,7 +183,6 @@ main {
   height: 150px;
   width: 250px;
   margin-top: 20px;
-  margin-left: 50px;
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;

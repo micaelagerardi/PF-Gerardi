@@ -3,7 +3,7 @@ footer {
   background-color: #f0e3b7;
   max-width: 1400px;
 }
-footer .container_footer {
+.container_footer {
   align-items: center;
   justify-content: center;
   display: block;
@@ -13,16 +13,16 @@ footer .container_footer {
   max-width: 1400px;
   margin: auto;
 }
-footer .texto_footer {
+.texto_footer {
   margin: 10px;
 }
-footer .s {
+.s {
   border: 1px solid #cf0e9b;
   height: 2px;
   margin-right: auto;
   margin-left: auto;
 }
-footer .instagram_footer {
+.instagram_footer {
   margin: 10px;
 }
 
@@ -116,8 +116,8 @@ body {
   line-height: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-  border: 1px solid #f0e3b7;
-  box-shadow: 3px 4px 15px #f0e3b7;
+  border: 1px solid #cf0e9b;
+  box-shadow: 3px 4px 15px #cf0e9b;
   margin: 50px;
   align-items: center;
   justify-content: center;
@@ -127,7 +127,7 @@ body {
 }
 .__comocomprar .__titulocomocompra {
   font-family: "Amatic SC", cursive;
-  color: #f0e3b7;
+  color: #cf0e9b;
 }
 
 /* MAIN CONTACTO */
@@ -154,7 +154,7 @@ body {
   display: flex;
 }
 .row .col-auto {
-  color: #f0e3b7;
+  color: #cf0e9b;
   border-radius: 5px;
 }
 
