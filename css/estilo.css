@@ -16,7 +16,7 @@ footer .container_footer {
 footer .texto_footer {
   margin: 10px;
 }
-footer .s {
+footer hr {
   border: 1px solid #cf0e9b;
   height: 2px;
   margin: auto;
