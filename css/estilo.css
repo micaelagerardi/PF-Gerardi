@@ -117,8 +117,8 @@ body {
   line-height: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-  border: 1px solid #f0e3b7;
-  box-shadow: 3px 4px 15px #f0e3b7;
+  border: 1px solid #cf0e9b;
+  box-shadow: 3px 4px 15px #cf0e9b;
   margin: 50px;
   align-items: center;
   justify-content: center;
@@ -128,7 +128,7 @@ body {
 }
 .__comocomprar .__titulocomocompra {
   font-family: "Amatic SC", cursive;
-  color: #f0e3b7;
+  color: #cf0e9b;
 }
 
 /* MAIN CONTACTO */
@@ -155,7 +155,7 @@ body {
   display: flex;
 }
 .row .col-auto {
-  color: #f0e3b7;
+  color: #cf0e9b;
   border-radius: 5px;
 }
 
@@ -190,7 +190,7 @@ main {
 }
 
 .cuadro_envios {
-  border: 2px solid #f0e3b7;
+  border: 2px solid #cf0e9b;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -200,7 +200,7 @@ main {
 .cuadro_envios ._titulometodoenvio {
   font-family: "Amatic SC", cursive;
   margin-bottom: 1rem;
-  color: #f0e3b7;
+  color: #cf0e9b;
   margin-top: 0.5rem;
 }
 .cuadro_envios ._textoenvios {
@@ -283,6 +283,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex: 0 1 100px;
 }
 .main_productos article article img {
   order: -1;
@@ -331,7 +332,7 @@ main {
   .container_header .main_productos {
     display: flex;
     flex-wrap: wrap;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-columns: 4, 1fr;
   }
   .container_header .foto_contacto {
     display: block;

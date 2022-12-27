@@ -18,7 +18,7 @@
     .main_productos {
       display: flex;
       flex-wrap: wrap;
-      grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+      grid-template-columns: (4, 1fr);
     }
 
     .foto_contacto {
