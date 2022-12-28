@@ -2,7 +2,6 @@
 footer {
   background-color: #f0e3b7;
   max-width: 1400px;
-  border-top: 1px solid #cf0e9b;
 }
 footer .container_footer {
   align-items: center;
@@ -13,7 +12,7 @@ footer .container_footer {
   max-width: 1400px;
   margin: auto;
   border-top: 1px solid #cf0e9b;
-  flex-direction: column;
+  flex-direction: block;
 }
 footer .texto_footer {
   margin: 10px;
@@ -285,7 +284,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 150px;
+  width: 250px;
 }
 .main_productos article article img {
   order: -1;
