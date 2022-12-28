@@ -30,17 +30,20 @@ main {
 .__indexcuadros1 {
   border: 1px solid #f84c09;
   color: #f84c09;
+  background-color: white;
   @include cuadrosindex;
 }
 
 .__indexcuadros2 {
   border: 1px solid #0f1ff9;
   color: #0f1ff9;
+  background-color: white;
   @include cuadrosindex;
 }
 
 .__indexcuadros3 {
   border: 1px solid #fc0b33;
   color: #fc0b33;
+  background-color: white;
   @include cuadrosindex;
 }

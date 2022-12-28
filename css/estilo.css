@@ -44,7 +44,7 @@ body {
 .container_header .h1 {
   letter-spacing: 10px;
   animation: iluminar 2.4s infinite;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .container_header .h {
   background: linear;
@@ -53,6 +53,7 @@ body {
 .container_header .header_barranavegacion {
   justify-content: center;
   text-align: center;
+  margin-top: 10px;
 }
 .container_header .nav-link {
   text-decoration: none;
@@ -118,6 +119,7 @@ body {
   margin: 50px;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 .__comocomprar ._licomo {
   color: black;
@@ -139,7 +141,7 @@ body {
   display: flex;
 }
 .row .__cuadrocontacto {
-  border: 1px solid salmon;
+  border: 1.5px solid salmon;
   text-align: center;
   line-height: 2.5rem;
   padding: 1rem;
@@ -186,12 +188,13 @@ main {
 }
 
 .cuadro_envios {
-  border: 2px solid #cf0e9b;
+  border: 2px solid salmon;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   text-align: center;
-  line-height: 2rem;
+  line-height: 2.2rem;
+  background-color: white;
 }
 .cuadro_envios ._titulometodoenvio {
   font-family: "Amatic SC", cursive;
@@ -223,6 +226,7 @@ main .container {
 .__indexcuadros1 {
   border: 1px solid #f84c09;
   color: #f84c09;
+  background-color: white;
   font-family: "Amatic SC", cursive;
   letter-spacing: 2px;
   border-radius: 15px;
@@ -235,6 +239,7 @@ main .container {
 .__indexcuadros2 {
   border: 1px solid #0f1ff9;
   color: #0f1ff9;
+  background-color: white;
   font-family: "Amatic SC", cursive;
   letter-spacing: 2px;
   border-radius: 15px;
@@ -247,6 +252,7 @@ main .container {
 .__indexcuadros3 {
   border: 1px solid #fc0b33;
   color: #fc0b33;
+  background-color: white;
   font-family: "Amatic SC", cursive;
   letter-spacing: 2px;
   border-radius: 15px;
@@ -263,7 +269,7 @@ main {
 
 .main_productos {
   display: grid;
-  grid-template-columns: 2, 1fr;
+  grid-template-columns: 1fr;
 }
 .main_productos article {
   display: flex;

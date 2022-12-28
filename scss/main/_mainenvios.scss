@@ -22,12 +22,13 @@ main {
 }
 
 .cuadro_envios {
-  border: 2px solid #cf0e9b;
+  border: 2px solid salmon;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   text-align: center;
-  line-height: 2rem;
+  line-height: 2.2rem;
+  background-color: white;
 
   ._titulometodoenvio {
     font-family: "Amatic SC", cursive;

@@ -6,7 +6,7 @@ main {
 
 .main_productos {
   display: grid;
-  grid-template-columns: (2, 1fr);
+  grid-template-columns: (1fr);
 
   article {
     display: flex;
