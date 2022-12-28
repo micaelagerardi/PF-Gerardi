@@ -7,13 +7,13 @@ footer {
   .container_footer {
     align-items: center;
     justify-content: center;
-    display: block;
     display: flex;
     font-family: "Caveat", cursive;
     padding: 10px;
     max-width: 1400px;
     margin: auto;
     border-top: 1px solid #cf0e9b;
+    flex-direction: column;
   }
 
   .texto_footer {
