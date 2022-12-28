@@ -1,8 +1,72 @@
 /*  MEDIA QUERIES  */
 
+/* VISTA TABLET */
+
+@media (min-width: 768px) {
+  /* header  */
+
+  header.container_header {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+  }
+
+  /* INICIO */
+
+  main .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .__indexcuadros1 {
+    transform: rotate(-5deg);
+    padding: 10px;
+    line-height: 2rem;
+    height: 200px;
+    width: 250px;
+    justify-content: center;
+    float: left;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+  }
+
+  .__indexcuadros2 {
+    transform: rotate(5deg);
+    padding: 5px;
+    line-height: 2rem;
+    height: 200px;
+    width: 250px;
+    justify-content: center;
+    float: left;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+  }
+
+  .__indexcuadros3 {
+    transform: rotate(1deg);
+    padding: 5px;
+    line-height: 2rem;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    float: left;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+  }
+}
+
 /* VISTA DESKTOP */
 
-@media (min-width: 720px) {
+@media (min-width: 1024px) {
   .container_header {
     flex-direction: row;
     justify-content: space-between;
