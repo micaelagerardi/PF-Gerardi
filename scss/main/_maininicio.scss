@@ -18,32 +18,37 @@ main {
 }
 
 @mixin cuadrosindex {
-  font-family: "Amatic SC", cursive;
   letter-spacing: 2px;
   border-radius: 15px;
-  box-shadow: 2px 4px 15px;
   line-height: 1.5rem;
   text-align: center;
   margin: 10px 20px 10px 20px;
+  font-family: "Amatic SC", cursive;
+  border: 2.5px solid salmon;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  line-height: 2.2rem;
+  background-color: white;
+}
+
+.__titulo {
+  font-family: "Amatic SC", cursive;
+  margin-bottom: 1rem;
+  color: #cf0e9b;
+  margin-top: 0.5rem;
 }
 
 .__indexcuadros1 {
-  border: 1px solid #f84c09;
-  color: #f84c09;
-  background-color: white;
   @include cuadrosindex;
 }
 
 .__indexcuadros2 {
-  border: 1px solid #0f1ff9;
-  color: #0f1ff9;
-  background-color: white;
   @include cuadrosindex;
 }
 
 .__indexcuadros3 {
-  border: 1px solid #fc0b33;
-  color: #fc0b33;
-  background-color: white;
   @include cuadrosindex;
 }
