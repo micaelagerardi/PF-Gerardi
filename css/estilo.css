@@ -57,6 +57,7 @@ body {
   justify-content: center;
   text-align: center;
   margin-top: 10px;
+  margin-left: 60px;
 }
 .container_header .nav-link {
   text-decoration: none;
@@ -81,6 +82,7 @@ body {
 .container_header .titulo {
   color: #85f1f1;
   text-align: center;
+  margin-left: 50px;
 }
 
 @keyframes iluminar {
@@ -148,15 +150,17 @@ body {
 .row .__cuadrocontacto {
   border: 2px solid salmon;
   text-align: center;
-  line-height: 2.5rem;
+  line-height: 4rem;
   padding: 1rem;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
   margin-right: 30px;
-  margin-left: 40px;
+  margin-left: 30px;
   align-items: center;
   justify-content: center;
   display: flex;
+  height: 450px;
+  width: 300px;
 }
 .row .col-auto {
   color: #cf0e9b;
