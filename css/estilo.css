@@ -5,6 +5,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  width: 100%;
   border-top: 1px solid #cf0e9b;
 }
 footer .container_footer {
@@ -35,6 +37,11 @@ body {
   background-color: #f0e3f0;
 }
 
+.h {
+  background: linear;
+  border: 1px solid #cf0e9b;
+}
+
 /* HEADER */
 .container_header {
   background-color: #d691f9;
@@ -48,10 +55,6 @@ body {
   letter-spacing: 10px;
   animation: iluminar 2.4s infinite;
   margin-bottom: 20px;
-}
-.container_header .h {
-  background: linear;
-  border: 1px solid #cf0e9b;
 }
 .container_header .header_barranavegacion {
   justify-content: center;
@@ -127,6 +130,9 @@ body {
   background-color: white;
   width: 270px;
   padding: 10px;
+}
+.__comocomprar .fotocomocomprar {
+  display: none;
 }
 .__comocomprar ._licomo {
   color: black;
@@ -400,6 +406,18 @@ main {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 70px;
+  }
+  /* COMO COMPRAR */
+  .__comocomprar {
+    height: 300px;
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 120px;
+  }
+  .fotocomocomprar {
+    display: block;
+    width: 100vw;
+    margin-top: 200px;
   }
 }
 /* VISTA DESKTOP */
