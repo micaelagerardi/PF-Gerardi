@@ -153,6 +153,9 @@ body {
   justify-content: center;
   display: flex;
 }
+.row .fotocontacto1 {
+  display: none;
+}
 .row .__cuadrocontacto {
   border: 2px solid salmon;
   text-align: center;
@@ -402,7 +405,7 @@ main {
     width: 300px;
     justify-content: center;
     float: left;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 70px;
@@ -412,12 +415,33 @@ main {
     height: 300px;
     width: 500px;
     margin-left: 150px;
-    margin-top: 120px;
+    margin-top: 190px;
+    margin-bottom: 190px;
   }
   .fotocomocomprar {
+    width: 100%;
+  }
+  /* ENVIOS */
+  .cuadro_envios {
+    width: 550px;
+    height: 350px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  iframe {
+    height: 500px;
+    width: 400px;
+  }
+  /* CONTACTO */
+  .row {
+    display: flex;
+  }
+  .fotocontacto1 {
     display: block;
-    width: 100vw;
-    margin-top: 200px;
+    margin-left: 200px;
+  }
+  .__cuadrocontacto {
+    margin-bottom: 50px;
   }
 }
 /* VISTA DESKTOP */
