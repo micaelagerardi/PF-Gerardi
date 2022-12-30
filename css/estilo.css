@@ -140,7 +140,7 @@ body {
   color: #cf0e9b;
 }
 
-.__cuadrocomocomprar .fotocomocomprar img {
+.fotocomocomprar1 {
   display: none;
 }
 
@@ -419,21 +419,17 @@ main {
   }
   /* COMO COMPRAR */
   .__cuadrocomocomprar {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  .__cuadrocomocomprar .fotocomocomprar1 {
-    display: block;
-    width: 100%;
+    flex-direction: column-reverse;
   }
   .__cuadrocomocomprar .__comocomprar {
-    display: block;
     height: 300px;
     width: 500px;
     margin-left: 150px;
     margin-top: 100px;
     margin-bottom: 190px;
+  }
+  .__cuadrocomocomprar .fotocomocomprar1 {
+    width: 100%;
   }
   /* ENVIOS */
   .cuadro_envios {
