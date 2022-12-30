@@ -118,7 +118,7 @@ body {
   background-color: #f0e3b7;
 }
 
-.__cuadrocomocomprar.__comocomprar {
+.__cuadrocomocomprar .__comocomprar {
   line-height: 3rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -131,16 +131,17 @@ body {
   width: 270px;
   padding: 10px;
 }
-.__cuadrocomocomprar.__comocomprar .__cuadrocomocomprar.fotocomocomprar {
-  display: none;
-}
-.__cuadrocomocomprar.__comocomprar ._licomo {
+.__cuadrocomocomprar .__comocomprar ._licomo {
   color: black;
   list-style-type: none;
 }
-.__cuadrocomocomprar.__comocomprar .__titulocomocompra {
+.__cuadrocomocomprar .__comocomprar .__titulocomocompra {
   font-family: "Amatic SC", cursive;
   color: #cf0e9b;
+}
+
+.__cuadrocomocomprar .fotocomocomprar img {
+  display: none;
 }
 
 /* MAIN CONTACTO */
@@ -153,16 +154,22 @@ body {
   justify-content: center;
   display: flex;
 }
-.row .row_contacto .fotocontacto1 {
-  display: block;
+.row .col-auto {
+  color: #cf0e9b;
+  border-radius: 5px;
 }
-.row .row_contacto .__cuadrocontacto {
+
+.row_contacto .fotocontacto1 {
+  display: none;
+}
+
+.row_contacto .__cuadrocontacto {
   border: 2px solid salmon;
   text-align: center;
   line-height: 4rem;
   padding: 1rem;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-right: 30px;
   margin-left: 30px;
   align-items: center;
@@ -170,10 +177,6 @@ body {
   display: flex;
   height: 450px;
   width: 300px;
-}
-.row .col-auto {
-  color: #cf0e9b;
-  border-radius: 5px;
 }
 
 /* MAIN ENVIOS */
@@ -296,11 +299,11 @@ main {
   background-color: #f0e3b7;
 }
 
-.main_productos {
+.productos {
   display: grid;
   grid-template-columns: 1fr;
 }
-.main_productos article {
+.productos article {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
@@ -316,23 +319,23 @@ main {
   text-align: center;
   width: 220px;
 }
-.main_productos article article img {
+.productos article article img {
   order: -1;
   align-self: center;
   border-radius: 2rem;
 }
-.main_productos article button {
+.productos article button {
   padding: 0.5rem;
   border: none;
   border-radius: 0.5rem;
   font-size: 0.5rem;
 }
-.main_productos .btn:hover {
+.productos .btn:hover {
   color: #cf0e9b;
   background-color: white;
   border: 2px solid #cf0e9b;
 }
-.main_productos .btn {
+.productos .btn {
   border: 1px solid black;
   background: black;
   color: white;
@@ -403,20 +406,32 @@ main {
     margin-bottom: 90px;
   }
   /* PRODUCTOS */
-  .main_productos {
+  .productos {
     display: grid;
-    grid-template-columns: 2, 1fr;
+    grid-template-columns: auto auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .card {
+    margin-left: 10px;
   }
   /* COMO COMPRAR */
-  .__comocomprar {
+  .__cuadrocomocomprar {
+    display: flex;
+  }
+  .__cuadrocomocomprar .fotocomocomprar1 {
+    display: block;
+    width: 100%;
+  }
+  .__cuadrocomocomprar .__comocomprar {
+    display: block;
     height: 300px;
     width: 500px;
     margin-left: 150px;
-    margin-top: 190px;
+    margin-top: 100px;
     margin-bottom: 190px;
-  }
-  .fotocomocomprar {
-    width: 100%;
   }
   /* ENVIOS */
   .cuadro_envios {

@@ -4,7 +4,7 @@
   background-color: $colorprincipal;
 }
 
-.__cuadrocomocomprar.__comocomprar {
+.__cuadrocomocomprar .__comocomprar {
   line-height: 3rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -17,10 +17,6 @@
   width: 270px;
   padding: 10px;
 
-  .__cuadrocomocomprar.fotocomocomprar {
-    display: none;
-  }
-
   ._licomo {
     color: black;
     list-style-type: none;
@@ -29,5 +25,11 @@
   .__titulocomocompra {
     font-family: "Amatic SC", cursive;
     color: #cf0e9b;
+  }
+}
+
+.__cuadrocomocomprar .fotocomocomprar {
+  img {
+    display: none;
   }
 }
