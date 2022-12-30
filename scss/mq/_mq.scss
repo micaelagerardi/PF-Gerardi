@@ -63,6 +63,12 @@
     margin-bottom: 70px;
   }
 
+  /* PRODUCTOS */
+
+  .main_productos {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+  }
   /* COMO COMPRAR */
 
   .__comocomprar {
@@ -83,27 +89,29 @@
     width: 550px;
     height: 350px;
     margin-bottom: 100px;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
-  iframe {
-    height: 500px;
+  .main_envios iframe {
     width: 400px;
+    height: 300px;
+    margin-top: 40px;
   }
 
   /* CONTACTO */
 
-  .row {
+  .contacto {
     display: flex;
+    flex-direction: row;
   }
 
   .fotocontacto1 {
     display: block;
-    margin-left: 200px;
   }
 
   .__cuadrocontacto {
     margin-bottom: 50px;
+    display: flex;
   }
 }
 
