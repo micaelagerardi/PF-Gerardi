@@ -533,19 +533,21 @@ main {
     margin-top: 30px;
   }
   /* COMO COMPRAR */
-  .__comocomprar {
-    line-height: 2rem;
-    height: 25rem;
-    width: 40rem;
-    margin-bottom: 2rem;
-    margin-left: 22rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  .__cuadrocomocomprar {
+    flex-direction: column-reverse;
   }
-  .__comocomprar .__cuadrocomomcomprar {
-    margin-top: 5rem;
-    height: 35rem;
+  .__cuadrocomocomprar .__comocomprar {
+    height: 300px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 200px;
+  }
+  .__cuadrocomocomprar .fotocomocomprar1 {
+    width: 100vw;
+    display: block;
+    height: 70px;
   }
   /* ENVIOS */
   iframe {
