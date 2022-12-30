@@ -87,7 +87,6 @@ body {
   text-align: center;
   margin-left: 10px;
 }
-
 @keyframes iluminar {
   0% {
     color: #fff900;
@@ -113,6 +112,7 @@ body {
     text-shadow: 10% 0 0 7px #fff900, 0 0 50px #ff6c00;
   }
 }
+
 /* MAIN COMO COMPRAR */
 .main {
   background-color: #f0e3b7;
@@ -420,6 +420,8 @@ main {
   /* COMO COMPRAR */
   .__cuadrocomocomprar {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
   .__cuadrocomocomprar .fotocomocomprar1 {
     display: block;
@@ -476,6 +478,7 @@ main {
 }
 /* VISTA DESKTOP */
 @media (min-width: 1024px) {
+  /* HEADER */
   .container_header {
     flex-direction: row;
     justify-content: space-between;
@@ -487,15 +490,52 @@ main {
   .container_header .header_barranavegacion {
     padding-right: 20px;
   }
-  .container_header .main_productos {
+  /*INICIO */
+  .container {
     display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: 4, 1fr;
+    flex-direction: row;
   }
-  .container_header .foto_contacto {
-    display: block;
-    width: 20%;
+  .container .__indexcuadros1 {
+    transform: rotate(-10deg);
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
   }
+  .container .__indexcuadros2 {
+    transform: rotate(5deg);
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+  }
+  .container .__indexcuadros3 {
+    transform: rotate(-10deg);
+    margin-left: 50px;
+    margin-top: 75px;
+    margin-right: 45px;
+    margin-bottom: 100px;
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+    justify-content: center;
+  }
+  /* PRODUCTOS */
+  .productos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  /* COMO COMPRAR */
   .__comocomprar {
     line-height: 2rem;
     height: 25rem;
@@ -510,48 +550,17 @@ main {
     margin-top: 5rem;
     height: 35rem;
   }
-  /* CUADROS INDEX */
-  .container {
-    display: flex;
-    flex-direction: row;
-  }
-  .container .__indexcuadros1 {
-    transform: rotate(-10deg);
-    padding: 60px;
-    margin-top: 75px;
-    margin-left: 50px;
-    margin-bottom: 100px;
-    height: 270px;
-    width: 300px;
-    justify-content: center;
-  }
-  .container .__indexcuadros2 {
-    transform: rotate(5deg);
-    padding: 40px;
-    margin-top: 75px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    height: 270px;
-    width: 300px;
-    justify-content: center;
-  }
-  .container .__indexcuadros3 {
-    transform: rotate(10deg);
-    margin-left: 50px;
-    margin-top: 75px;
-    margin-right: 45px;
-    margin-bottom: 100px;
-    height: 270px;
-    width: 300px;
-    padding: 60px;
-    justify-content: center;
-  }
   /* ENVIOS */
   iframe {
     width: 400px;
     height: 300px;
     display: flex;
     flex-direction: inline;
+  }
+  /*CONTACTO */
+  .foto_contacto {
+    display: block;
+    width: 20%;
   }
 }
 

@@ -82,6 +82,8 @@
 
   .__cuadrocomocomprar {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
 
   .__cuadrocomocomprar .fotocomocomprar1 {
@@ -149,6 +151,8 @@
 /* VISTA DESKTOP */
 
 @media (min-width: 1024px) {
+  /* HEADER */
+
   .container_header {
     flex-direction: row;
     justify-content: space-between;
@@ -160,18 +164,60 @@
     .header_barranavegacion {
       padding-right: 20px;
     }
+  }
 
-    .main_productos {
-      display: flex;
-      flex-wrap: wrap;
-      grid-template-columns: (4, 1fr);
+  /*INICIO */
+
+  .container {
+    display: flex;
+    flex-direction: row;
+
+    .__indexcuadros1 {
+      transform: rotate(-10deg);
+      padding: 20px;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-bottom: 100px;
+      height: 200px;
+      width: 300px;
+      justify-content: center;
     }
 
-    .foto_contacto {
-      display: block;
-      width: 20%;
+    .__indexcuadros2 {
+      transform: rotate(5deg);
+      padding: 20px;
+      margin-top: 200px;
+      margin-left: 50px;
+      margin-bottom: 100px;
+      height: 200px;
+      width: 300px;
+      justify-content: center;
+    }
+
+    .__indexcuadros3 {
+      transform: rotate(-10deg);
+      margin-left: 50px;
+      margin-top: 75px;
+      margin-right: 45px;
+      margin-bottom: 100px;
+      height: 300px;
+      width: 400px;
+      padding: 20px;
+      justify-content: center;
     }
   }
+  /* PRODUCTOS */
+
+  .productos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  /* COMO COMPRAR */
 
   .__comocomprar {
     line-height: 2rem;
@@ -189,47 +235,6 @@
     }
   }
 
-  /* CUADROS INDEX */
-
-  .container {
-    display: flex;
-    flex-direction: row;
-
-    .__indexcuadros1 {
-      transform: rotate(-10deg);
-      padding: 60px;
-      margin-top: 75px;
-      margin-left: 50px;
-      margin-bottom: 100px;
-      height: 270px;
-      width: 300px;
-      justify-content: center;
-    }
-
-    .__indexcuadros2 {
-      transform: rotate(5deg);
-      padding: 40px;
-      margin-top: 75px;
-      margin-left: 100px;
-      margin-bottom: 100px;
-      height: 270px;
-      width: 300px;
-      justify-content: center;
-    }
-
-    .__indexcuadros3 {
-      transform: rotate(10deg);
-      margin-left: 50px;
-      margin-top: 75px;
-      margin-right: 45px;
-      margin-bottom: 100px;
-      height: 270px;
-      width: 300px;
-      padding: 60px;
-      justify-content: center;
-    }
-  }
-
   /* ENVIOS */
 
   iframe {
@@ -237,5 +242,12 @@
     height: 300px;
     display: flex;
     flex-direction: inline;
+  }
+
+  /*CONTACTO */
+
+  .foto_contacto {
+    display: block;
+    width: 20%;
   }
 }

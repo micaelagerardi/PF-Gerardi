@@ -49,34 +49,34 @@
     color: #85f1f1;
     text-align: center;
     margin-left: 10px;
-  }
-}
+    @keyframes iluminar {
+      0% {
+        color: #fff900;
+      }
 
-@keyframes iluminar {
-  0% {
-    color: #fff900;
-  }
-  20% {
-    color: #1b7fdb;
-    text-shadow: none;
-  }
+      20% {
+        color: #1b7fdb;
+        text-shadow: none;
+      }
 
-  40% {
-    color: #261784;
-    text-shadow: none;
-  }
-  60% {
-    color: #484848;
-    text-shadow: none;
-  }
+      40% {
+        color: #261784;
+        text-shadow: none;
+      }
+      60% {
+        color: #484848;
+        text-shadow: none;
+      }
 
-  80% {
-    color: #540df3;
-    text-shadow: none;
-  }
+      80% {
+        color: #540df3;
+        text-shadow: none;
+      }
 
-  100% {
-    color: #841ade;
-    text-shadow: 10% 0 0 7px #fff900, 0 0 50px #ff6c00;
+      100% {
+        color: #841ade;
+        text-shadow: 10% 0 0 7px #fff900, 0 0 50px #ff6c00;
+      }
+    }
   }
 }
