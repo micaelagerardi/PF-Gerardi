@@ -118,7 +118,7 @@ body {
   background-color: #f0e3b7;
 }
 
-.__comocomprar {
+.__cuadrocomocomprar.__comocomprar {
   line-height: 3rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -131,14 +131,14 @@ body {
   width: 270px;
   padding: 10px;
 }
-.__comocomprar .fotocomocomprar {
+.__cuadrocomocomprar.__comocomprar .__cuadrocomocomprar.fotocomocomprar {
   display: none;
 }
-.__comocomprar ._licomo {
+.__cuadrocomocomprar.__comocomprar ._licomo {
   color: black;
   list-style-type: none;
 }
-.__comocomprar .__titulocomocompra {
+.__cuadrocomocomprar.__comocomprar .__titulocomocompra {
   font-family: "Amatic SC", cursive;
   color: #cf0e9b;
 }
@@ -371,7 +371,7 @@ main {
     width: 250px;
     justify-content: center;
     float: left;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 70px;
@@ -384,7 +384,7 @@ main {
     width: 250px;
     justify-content: center;
     float: left;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 70px;
@@ -397,10 +397,10 @@ main {
     width: 300px;
     justify-content: center;
     float: left;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
   }
   /* PRODUCTOS */
   .main_productos {
