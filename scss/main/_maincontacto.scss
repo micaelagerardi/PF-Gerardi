@@ -9,11 +9,11 @@
   justify-content: center;
   display: flex;
 
-  .fotocontacto1 {
-    display: none;
+  .row_contacto .fotocontacto1 {
+    display: block;
   }
 
-  .__cuadrocontacto {
+  .row_contacto .__cuadrocontacto {
     border: 2px solid salmon;
     text-align: center;
     line-height: 4rem;
@@ -32,12 +32,4 @@
     color: #cf0e9b;
     border-radius: 5px;
   }
-}
-
-.foto_contacto {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 100px;
-  display: none;
-  width: 20%;
 }

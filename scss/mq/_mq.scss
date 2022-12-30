@@ -100,18 +100,34 @@
 
   /* CONTACTO */
 
-  .contacto {
+  .row_contacto {
+    display: flex;
+  }
+
+  .row_contacto .__cuadrocontacto {
     display: flex;
     flex-direction: row;
-  }
-
-  .fotocontacto1 {
-    display: block;
-  }
-
-  .__cuadrocontacto {
-    margin-bottom: 50px;
+    margin-top: 240px;
+    margin-left: 50px;
+    border: 2px solid salmon;
+    text-align: center;
+    line-height: 3rem;
+    padding: 1rem;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
     display: flex;
+    height: 350px;
+    width: 300px;
+  }
+
+  .row_contacto .fotocontacto1 {
+    display: block;
+    margin-top: 160px;
+    margin-left: 20px;
+    margin-bottom: 160px;
+    margin-right: 20px;
   }
 }
 
