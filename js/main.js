@@ -112,8 +112,8 @@ const producto16 = new Producto(
   1,
   "../images/galletaschocolate.jpg"
 );
-const producto17 = new Producto(17, "Pepas", 350, 1, "../images/pepas.jpg");
-const producto18 = new Producto(18, "Trufas", 350, 1, "../images/trufas.jpg");
+const producto17 = new Producto(17, "Pepas", 350, 1, "./images/pepas.jpg");
+const producto18 = new Producto(18, "Trufas", 350, 1, "./images/trufas.jpg");
 const producto19 = new Producto(
   19,
   "Pastelitos Rellenos de Dulce de Leche",
