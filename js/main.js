@@ -90,13 +90,13 @@ const producto12 = new Producto(
   1,
   "../images/budinnaranja.jpg"
 );
-const producto13 = new Producto(13, "Churros", 150, 1, "./images/churros.jpg");
+const producto13 = new Producto(13, "Churros", 150, 1, "../images/churros.jpg");
 const producto14 = new Producto(
   14,
   "Churros Rellenos de Dulce de Leche",
   180,
   1,
-  "../images/churrosrellenos.jpg"
+  "../images/churrosrelleno.jpg"
 );
 const producto15 = new Producto(
   15,
@@ -112,8 +112,8 @@ const producto16 = new Producto(
   1,
   "../images/galletaschocolate.jpg"
 );
-const producto17 = new Producto(17, "Pepas", 350, 1, "./images/pepas.jpg");
-const producto18 = new Producto(18, "Trufas", 350, 1, "./images/trufas.jpg");
+const producto17 = new Producto(17, "Pepas", 350, 1, "../images/pepas.jpg");
+const producto18 = new Producto(18, "Trufas", 350, 1, "../images/trufas.jpg");
 const producto19 = new Producto(
   19,
   "Pastelitos Rellenos de Dulce de Leche",
@@ -217,7 +217,7 @@ function actualizarCarrito() {
   carrito.forEach((producto) => {
     aux += `
               <div class="card col-xl-3 col-md-6 col-sm-12">
-                  <img src="img/${producto.id}.jpg" class="card-img-top img-fluid py-3">
+                  <img src="${producto.src}" class="card-img-top img-fluid py-3">
                   <div class="card-body">
                       <h3 class="card-title"> ${producto.nombre} </h3>
                       <p class="card-text"> ${producto.precio} </p>
