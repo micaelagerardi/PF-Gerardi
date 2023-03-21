@@ -1,4 +1,4 @@
-//Creo la clase Producto, con las propiedades id, nombre, precio y cantidad:
+//Creo la clase Producto, con las propiedades id, nombre, precio, cantidad y src:
 
 class Producto {
   constructor(id, nombre, precio, cantidad, src) {
@@ -128,6 +128,8 @@ const producto20 = new Producto(
   1,
   "../images/tortasfritas.jpg"
 );
+
+// creo array con los productos
 
 const productos = [
   producto1,
