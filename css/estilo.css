@@ -325,14 +325,42 @@ main .container {
 }
 
 /* MAIN PRODUCTOS */
-main {
+.products {
   background-color: #f0e3b7;
-}
-
-.productos {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 30px;
 }
+
+#contenedorProductos {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  background-color: white;
+  font-family: "Amatic SC", cursive;
+  align-items: center;
+  line-height: 1.5rem;
+  margin: 10px 20px 10px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 405px;
+}
+
+.carritoDeCompras {
+  display: flex;
+  flex-direction: column;
+}
+.card-img-top img-fluid py-3 {
+  order: -1;
+  align-self: center;
+  border-radius: 2rem;
+}
+
+/* 
+
 .productos article {
   display: flex;
   flex-direction: column;
@@ -377,7 +405,7 @@ main {
   overflow: hidden;
   transition: all 0.5s;
   align-items: center;
-}
+} */
 
 /*  MEDIA QUERIES  */
 /* VISTA TABLET */

@@ -112,8 +112,8 @@ const producto16 = new Producto(
   1,
   "../images/galletaschocolate.jpg"
 );
-const producto17 = new Producto(17, "Pepas", 350, 1, "./images/pepas.jpg");
-const producto18 = new Producto(18, "Trufas", 350, 1, "./images/trufas.jpg");
+const producto17 = new Producto(17, "Pepas", 350, 1, "../images/pepas.jpg");
+const producto18 = new Producto(18, "Trufas", 350, 1, "../images/trufas.jpg");
 const producto19 = new Producto(
   19,
   "Pastelitos Rellenos de Dulce de Leche",
@@ -162,8 +162,8 @@ productos.forEach((producto) => {
   const divProducto = document.createElement("div");
   divProducto.classList.add("card", "col-xl-3", "col-md-6", "col-sm-12");
   divProducto.innerHTML = `
-                          <div>
-                              <img src= ${producto.src} class="card-img-top img-fluid py-3">
+                          <div class= "card-img">
+                              <img src= ${producto.src} class="card-img-top img-fluid py-3" height="80px">
                               <div class="card-body">
                                   <h3 class="card-title"> ${producto.nombre} </h3>
                                   <p class="card-text"> ${producto.precio} </p>
