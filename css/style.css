@@ -146,8 +146,8 @@ main .container {
 }
 
 #contenedorProductos {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
   border-radius: 2rem;
   padding: 0.5rem;
@@ -160,15 +160,11 @@ main .container {
   align-items: center;
   text-align: center;
   width: 405px;
-  grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr 30px;
 }
 
 .carritoDeCompras {
-  /* display: flex;
-  flex-direction: column; */
-  grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-img-top img-fluid py-3 {

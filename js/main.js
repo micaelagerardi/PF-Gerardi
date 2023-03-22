@@ -219,7 +219,7 @@ function actualizarCarrito() {
   carrito.forEach((producto) => {
     aux += `
               <div class="card col-xl-3 col-md-6 col-sm-12">
-                  <img src="${producto.src}" class="card-img-top img-fluid py-3">
+                  <img src="${producto.src}" class="card-img-top img-fluid py-3" height="80px" >
                   <div class="card-body">
                       <h3 class="card-title"> ${producto.nombre} </h3>
                       <p class="card-text"> ${producto.precio} </p>
