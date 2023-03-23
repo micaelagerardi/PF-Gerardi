@@ -7,7 +7,7 @@ const contenedorProductos = document.getElementById("contenedorProductos");
 fetch("./productos.json")
   .then((response) => response.json())
   .then((response) => {
-    productos.forEach((producto) => {
+    response.forEach((response) => {
       const divProducto = document.createElement("div");
       divProducto.classList.add("card", "col-xl-3", "col-md-6", "col-sm-12");
       divProducto.innerHTML = `
@@ -74,7 +74,7 @@ function actualizarCarrito() {
   calcularTotalCompra();
 }
 
-//Agrego una función que elimine el producto del carrito:
+// función que elimina un producto del carrito:
 
 const eliminarDelCarrito = (id) => {
   const producto = carrito.find((producto) => producto.id === id);
@@ -82,7 +82,7 @@ const eliminarDelCarrito = (id) => {
   actualizarCarrito();
 };
 
-///Función para vaciar todo el carrito por completo:
+// funcion que vacia todo el carrito:
 
 const vaciarCarrito = document.getElementById("vaciarCarrito");
 vaciarCarrito.addEventListener("click", () => {

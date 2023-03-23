@@ -158,23 +158,6 @@ main .container {
   width: 405px;
 }
 
-#contenedorProductos {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  border-radius: 2rem;
-  padding: 0.5rem;
-  background-color: white;
-  font-family: "Amatic SC", cursive;
-  align-items: center;
-  line-height: 1.5rem;
-  margin: 10px 20px 10px 20px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 405px;
-}
-
 .carritoDeCompras {
   display: flex;
   flex-direction: column;
