@@ -332,7 +332,7 @@ main .container {
   grid-template-rows: 50px 1fr 30px;
 }
 
-#contenedorProductos {
+#contenedorProductos.row {
   display: flex;
   flex-direction: column;
   border: 1px solid black;

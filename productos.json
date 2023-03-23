@@ -1,0 +1,143 @@
+[
+  {
+    "id": "1",
+    "nombre": "Chipa",
+    "precio": 300,
+    "stock": "1",
+    "src": "../images/chipa.jpg"
+  },
+
+  {
+    "id": "2",
+    "nombre": "Sandwich de Miga",
+    "precio": 250,
+    "stock": "1",
+    "src": "../images/sandwich.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Medialunas de Manteca",
+    "precio": 150,
+    "stock": "1",
+    "src": "../images/medialunas.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Cookies con Chips",
+    "precio": 350,
+    "stock": "1",
+    "src": "../images/cookies.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "Alfajor de Maicena",
+    "precio": 200,
+    "stock": "1",
+    "src": "../images/alfajormaicena.jpg"
+  },
+  {
+    "id": "6",
+    "nombre": "Pastafrola de Batata",
+    "precio": 1200,
+    "stock": "1",
+    "src": "../images/batata.jpg"
+  },
+  {
+    "id": "7",
+    "nombre": "Pastafrola de Membrillo",
+    "precio": 1200,
+    "stock": "1",
+    "src": "../images/membrillo.jpg"
+  },
+  {
+    "id": "8",
+    "nombre": "Berlines Rellenos de Dulce de Leche",
+    "precio": 300,
+    "stock": "1",
+    "src": "../images/berlinesddl.jpg"
+  },
+  {
+    "id": "9",
+    "nombre": "Berlines Rellenos de Pastelera",
+    "precio": 300,
+    "stock": "1",
+    "src": "../images/berlinespastelera.jpg"
+  },
+  {
+    "id": "10",
+    "nombre": "Budin de Banana",
+    "precio": 900,
+    "stock": "1",
+    "src": "../images/budinbanana.jpg"
+  },
+  {
+    "id": "11",
+    "nombre": "Budin de Limon",
+    "precio": 900,
+    "stock": "1",
+    "src": "../images/budinlimon.jpg"
+  },
+  {
+    "id": "12",
+    "nombre": "Budin de Naranja",
+    "precio": 900,
+    "stock": "1",
+    "src": "../images/budinnaraja.jpg"
+  },
+  {
+    "id": "13",
+    "nombre": "Churros",
+    "precio": 150,
+    "stock": "1",
+    "src": "../images/churros.jpg"
+  },
+  {
+    "id": "14",
+    "nombre": "Churros Rellenos de Dulce de Leche",
+    "precio": 180,
+    "stock": "1",
+    "src": "../images/churrosrelleno.jpg"
+  },
+  {
+    "id": "15",
+    "nombre": "Conito de Dulce de Leche",
+    "precio": 250,
+    "stock": "1",
+    "src": "../images/conitosddl.jpg"
+  },
+  {
+    "id": "16",
+    "nombre": "Cookie de Chocolate",
+    "precio": 350,
+    "stock": "1",
+    "src": "../images/galletaschocolate.jpg"
+  },
+  {
+    "id": "17",
+    "nombre": "Pepas",
+    "precio": 350,
+    "stock": "1",
+    "src": "../images/pepas.jpg"
+  },
+  {
+    "id": "18",
+    "nombre": "Trufas",
+    "precio": 350,
+    "stock": "1",
+    "src": "../images/trufas.jpg"
+  },
+  {
+    "id": "19",
+    "nombre": "Pastelitos Rellenos de Dulce de Leche",
+    "precio": 300,
+    "stock": "1",
+    "src": "../images/pastelitosddl.jpg"
+  },
+  {
+    "id": "20",
+    "nombre": "Torta Fritas",
+    "precio": 150,
+    "stock": "1",
+    "src": "../images/tortafritas.jpg"
+  }
+]

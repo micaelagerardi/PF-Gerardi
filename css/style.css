@@ -140,9 +140,22 @@ main .container {
 
 .products {
   background-color: #f0e3b7;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr 30px;
+  /* grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 30px; */
+  flex-direction: column;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  background-color: white;
+  font-family: "Amatic SC", cursive;
+  align-items: center;
+  line-height: 1.5rem;
+  margin: 10px 20px 10px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 405px;
 }
 
 #contenedorProductos {
