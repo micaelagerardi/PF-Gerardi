@@ -2,34 +2,46 @@
 
 const contenedorProductos = document.getElementById("contenedorProductos");
 
+// construyo variable para guardar los elementos de json
+
+const url = "../productos.json";
+
 // Llamo a json para mostrar los productos
 
-fetch("./productos.json")
+fetch(url)
   .then((response) => response.json())
-  .then((response) => {
-    response.forEach((response) => {
-      const divProducto = document.createElement("div");
-      divProducto.classList.add("card", "col-xl-3", "col-md-6", "col-sm-12");
-      divProducto.innerHTML = `
-                          <div class= "card-img">
-                              <img src= ${producto.src} class="card-img-top img-fluid py-3" height="80px">
-                              <div class="card-body">
-                                  <h3 class="card-title"> ${producto.nombre} </h3>
-                                  <p class="card-text"> ${producto.precio} </p>
-                                  <button id="boton${producto.id}" class="btn btn-primary"> Comprar </button>
-                              </div>
-                          </div>`;
+  .then((data) => mostrarProductos(data));
 
-      contenedorProductos.appendChild(divProducto);
+// creo funcion para mostrar los productosS
 
-      //Agregar un evento al boton Comprar:
+function mostrarProductos(productos) {
+  // foreach
+  productos.forEach((producto) => {
+    // creo las cards de los productos
+    const divProducto = document.createElement("div");
+    // tipo de card
+    divProducto.classList.add("card", "col-xl-3", "col-md-6", "col-sm-12");
+    // las agreggo al html
+    divProducto.innerHTML = `
+      <div class= "card-img">
+        <img src="${producto.src}" class="card-img-top img-fluid py-3" height="80px">
+        <div class="card-body">
+          <h3 class="card-title">${producto.nombre}</h3>
+          <p class="card-text">${producto.precio}</p>
+          <button id="boton${producto.id}" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>`;
 
-      const boton = document.getElementById(`boton${producto.id}`);
-      boton.addEventListener("click", () => {
-        agregarAlCarrito(producto.id);
-      });
+    contenedorProductos.appendChild(divProducto);
+
+    //Agregar un evento al boton Comprar:
+
+    const boton = document.getElementById(`boton${producto.id}`);
+    boton.addEventListener("click", () => {
+      agregarAlCarrito(producto.id);
     });
   });
+}
 
 //Creo el carrito de compras y una función que busque el producto por id y lo agregue al carrito.
 
