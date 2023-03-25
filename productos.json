@@ -82,7 +82,7 @@
     "nombre": "Budin de Naranja",
     "precio": 900,
     "stock": "1",
-    "src": "../images/budinnaraja.jpg"
+    "src": "../images/budinnaranja.jpg"
   },
   {
     "id": "13",
@@ -130,14 +130,14 @@
     "id": "19",
     "nombre": "Pastelitos Rellenos de Dulce de Leche",
     "precio": 300,
-    "stock": "1",
+    "stock": 1,
     "src": "../images/pastelitosddl.jpg"
   },
   {
     "id": "20",
     "nombre": "Torta Fritas",
     "precio": 150,
-    "stock": "1",
-    "src": "../images/tortafritas.jpg"
+    "stock": 1,
+    "src": "../images/tortasfritas.jpg"
   }
 ]

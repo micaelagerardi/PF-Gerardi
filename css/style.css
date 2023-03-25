@@ -140,8 +140,6 @@ main .container {
 
 .products {
   background-color: #f0e3b7;
-  /* grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr 30px; */
   flex-direction: column;
   display: flex;
   border: 1px solid black;

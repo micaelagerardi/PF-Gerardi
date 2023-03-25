@@ -327,9 +327,7 @@ main .container {
 /* MAIN PRODUCTOS */
 .products {
   background-color: #f0e3b7;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr 30px;
+  display: flex;
 }
 
 .carritoDeCompras {

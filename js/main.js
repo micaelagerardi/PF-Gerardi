@@ -1,19 +1,24 @@
 //Muestro los productos modificando el DOM
 
+// creo variable para contenedor de los productos
 const contenedorProductos = document.getElementById("contenedorProductos");
 
 // construyo variable para guardar los elementos de json
-
 const url = "../productos.json";
+
+// construyo variable para productos
+let productos = [];
 
 // Llamo a json para mostrar los productos
 
 fetch(url)
   .then((response) => response.json())
-  .then((data) => mostrarProductos(data));
+  .then((data) => {
+    productos = data;
+    mostrarProductos(productos);
+  });
 
-// creo funcion para mostrar los productosS
-
+// creo funcion para mostrar los productos
 function mostrarProductos(productos) {
   // foreach
   productos.forEach((producto) => {
@@ -62,7 +67,9 @@ const agregarAlCarrito = (id) => {
 
 //Muestro el carrito de compras modificando el DOM.
 
+// variable de contenedor carrito
 const contenedorCarrito = document.getElementById("contenedorCarrito");
+// variable de ver carrito
 const verCarrito = document.getElementById("verCarrito");
 
 verCarrito.addEventListener("click", actualizarCarrito);
@@ -94,22 +101,23 @@ const eliminarDelCarrito = (id) => {
   actualizarCarrito();
 };
 
-// funcion que vacia todo el carrito:
-
+// declaro variable vaciar carrito
 const vaciarCarrito = document.getElementById("vaciarCarrito");
+
+// funcion que varia el carrito
 vaciarCarrito.addEventListener("click", () => {
   carrito.splice(0, carrito.length);
   actualizarCarrito();
 });
 
-//Creo una función que me calcule el total del carrito:
-
+// declaro variable total compra
 const totalCompra = document.getElementById("totalCompra");
 
+//Creo una función que me calcule el total del carrito:
 const calcularTotalCompra = () => {
   let total = 0;
   carrito.forEach((producto) => {
-    total += producto.precio * producto.cantidad;
+    total += producto.precio * producto.stock;
   });
   totalCompra.innerHTML = total;
 };
